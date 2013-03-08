@@ -38,3 +38,7 @@ System.out.println("PF sostavit (rub):"+pf);
 System.out.println("FSS po bezrabotitse sostavit (rub):"+fssbezrab);
 fssneschsl=((oklad/krm)*kod)*0.01;
 fssneschsl=Math.round(fssneschsl);
+
+System.out.println("FSS po neschastnim sluchayam sostavit (rub):"+fssneschsl);
+summanalogov=esn+ndfl+pf+fssbezrab+fssneschsl;
+summanalogov=Math.round(summanalogov);
