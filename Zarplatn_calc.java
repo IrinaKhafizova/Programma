@@ -9,3 +9,5 @@ main () без конкретизации экземпляра класса. Ч�
 class zp {
 //Строка IOException необходима для обработки ошибок ввода
 public static void main(String args[]) throws IOException {
+double krm,kod,oklad,esn,ndfl,pf,fssbezrab,fssneschsl,otraboklad,summanalogov,itogo;
+BufferedReader kb=new BufferedReader(new InputStreamReader(System.in));
