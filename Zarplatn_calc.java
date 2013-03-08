@@ -30,3 +30,7 @@ ndfl=Math.round(ndfl);
 System.out.println("NDFL sostavit (rub):"+ndfl);
 pf=((oklad/krm)*kod)*0.02;
 pf=Math.round(pf);
+
+System.out.println("PF sostavit (rub):"+pf);
+  fssbezrab=((oklad/krm)*kod)*0.006;
+  fssbezrab=Math.round(fssbezrab);
