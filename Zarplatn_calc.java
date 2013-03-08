@@ -11,3 +11,7 @@ class zp {
 public static void main(String args[]) throws IOException {
 double krm,kod,oklad,esn,ndfl,pf,fssbezrab,fssneschsl,otraboklad,summanalogov,itogo;
 BufferedReader kb=new BufferedReader(new InputStreamReader(System.in));
+
+  System.out.println("vvedite kolichestvo rabochih dnei v mesyace");
+  krm=Double.parseDouble(kb.readLine());
+  
