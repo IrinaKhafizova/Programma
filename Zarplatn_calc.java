@@ -15,3 +15,5 @@ BufferedReader kb=new BufferedReader(new InputStreamReader(System.in));
   System.out.println("vvedite kolichestvo rabochih dnei v mesyace");
   krm=Double.parseDouble(kb.readLine());
   
+System.out.println("vvedite kolichestvo otrabotannih dney");
+kod=Double.parseDouble(kb.readLine());
