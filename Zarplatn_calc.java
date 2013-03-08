@@ -5,3 +5,7 @@ import java.io.*;
 видимостью членов класса. Ключевое слово static позволяет вызывать метод
 main () без конкретизации экземпляра класса. Часть String args [ ] объявляет
 параметр args, который представляет собой массив экземпляров класса String.*/
+
+class zp {
+//Строка IOException необходима для обработки ошибок ввода
+public static void main(String args[]) throws IOException {
