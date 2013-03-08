@@ -34,3 +34,6 @@ pf=Math.round(pf);
 System.out.println("PF sostavit (rub):"+pf);
   fssbezrab=((oklad/krm)*kod)*0.006;
   fssbezrab=Math.round(fssbezrab);
+  System.out.println("FSS po bezrabotitse sostavit (rub):"+fssbezrab);
+fssneschsl=((oklad/krm)*kod)*0.01;
+fssneschsl=Math.round(fssneschsl);
