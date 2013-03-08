@@ -26,3 +26,7 @@ esn=Math.round(esn);
 System.out.println("ESN sostavit (rub):"+esn);
 ndfl=((oklad/krm)*kod)*0.13;
 ndfl=Math.round(ndfl);
+
+System.out.println("NDFL sostavit (rub):"+ndfl);
+pf=((oklad/krm)*kod)*0.02;
+pf=Math.round(pf);
