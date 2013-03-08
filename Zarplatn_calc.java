@@ -17,3 +17,5 @@ BufferedReader kb=new BufferedReader(new InputStreamReader(System.in));
   
   System.out.println("vvedite kolichestvo otrabotannih dney");
   kod=Double.parseDouble(kb.readLine());
+double krm,kod,oklad,esn,ndfl,pf,fssbezrab,fssneschsl,otraboklad,summanalogov,itogo;
+BufferedReader kb=new BufferedReader(new InputStreamReader(System.in));
