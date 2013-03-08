@@ -42,3 +42,11 @@ fssneschsl=Math.round(fssneschsl);
 System.out.println("FSS po neschastnim sluchayam sostavit (rub):"+fssneschsl);
 summanalogov=esn+ndfl+pf+fssbezrab+fssneschsl;
 summanalogov=Math.round(summanalogov);
+
+System.out.println("Itogo nalogi (rub):"+summanalogov);
+  itogo=((oklad/krm)*kod)-summanalogov;
+  itogo=Math.round(itogo);
+  System.out.println("Itogo k vidache (rub):"+itogo);
+  
+}
+}
